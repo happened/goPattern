@@ -9,7 +9,7 @@ import "bytes"
 //第二个客人：鸡腿+可乐
 //通过不同的点餐配合生成了不同价格的套餐
 
-//套餐接口
+//套餐结构
 type setMeal struct {
 	taocanming string//套餐名
 	price int	//套餐价格
